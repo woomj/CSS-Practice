@@ -1,0 +1,45 @@
+header {
+  height: 75px;
+  padding: 1rew;
+  color: white;
+  background: aliceblue;
+  font-weight: bold;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+}
+
+.menu:hover {
+  padding: 0.5em;
+  background: #b2ccff;
+  font-size: 15pt;
+}
+
+.login {
+  width: 50px;
+  background-color: #d4f4fa;
+  border: none;
+  box-shadow: 2px 2px 2px #818181;
+  color: #fff;
+  padding: 5px 0;
+  text-align: center;
+  display: inline-block;
+  font-size: 10pt;
+  margin-right: 30px;
+  cursor: pointer;
+}
+
+h1 {
+  margin: 0;
+  font-size: 30pt;
+}
+body {
+  padding-top: 75px;
+}
+* {
+  box-sizing: border-box;
+}
