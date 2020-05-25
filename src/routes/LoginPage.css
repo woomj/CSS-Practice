@@ -9,27 +9,25 @@
   background-color: aliceblue;
   height: 300px;
   width: 300px;
+  box-shadow: 0 8px 8px 0 rgba(0, 0, 0, 0.24), 0 17px 50px 0 rgba(0, 0, 0, 0.19);
 }
 
 li {
   list-style: none;
+  padding: 10px;
   justify-content: space-between;
 }
-
+.loginbutton {
+  color: rgb(6, 217, 236);
+  border: none;
+  text-align: center;
+  cursor: pointer;
+}
 h1 {
   text-align: center;
 }
-.button {
-  background-color: blue;
-  border: none;
-  color: white;
-  padding: 15px 30px;
-  text-align: center;
-  text-decoration: none;
-  display: inline-block;
-  font-size: 16pz;
-  margin: 4px 2px;
-  cursor: pointer;
-  box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.24),
-    0 17px 50px 0 rgba(0, 0, 0, 0.19);
+.registe {
+  font-size: 10pt;
+  text-align: right;
+  padding-right: 10px;
 }

@@ -6,21 +6,21 @@ function Navigation() {
   return (
     <header>
       <Link to="/" style={{ textDecoration: "none" }}>
-        <h1>Home</h1>
+        <h1>영화</h1>
       </Link>
       <li class="menu">
-        <Link to={{ pathname: "/menu1" }} style={{ textDecoration: "none" }}>
-          menu1
+        <Link to={{ pathname: "/movie" }} style={{ textDecoration: "none" }}>
+          지금 상영중
         </Link>
       </li>
       <li class="menu">
         <Link to={{ pathname: "/menu2" }} style={{ textDecoration: "none" }}>
-          menu2
+          개봉임박
         </Link>
       </li>
       <li class="menu">
         <Link to={{ pathname: "/menu3" }} style={{ textDecoration: "none" }}>
-          menu3
+          상영종료
         </Link>
       </li>
       <li class="login">

@@ -11,6 +11,7 @@ header {
   top: 0;
   left: 0;
   right: 0;
+  z-index: 1;
 }
 
 .menu:hover {
@@ -21,9 +22,9 @@ header {
 
 .login {
   width: 50px;
-  background-color: #d4f4fa;
+  background-color: white;
   border: none;
-  box-shadow: 2px 2px 2px #818181;
+  box-shadow: 2px 2px 2px #b6b5b5;
   color: #fff;
   padding: 5px 0;
   text-align: center;
@@ -34,7 +35,7 @@ header {
 }
 
 h1 {
-  margin: 0;
+  padding-left: 10px;
   font-size: 30pt;
 }
 body {

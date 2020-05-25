@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 import "./LoginPage.css";
 
 //로그인화면 생성
@@ -9,17 +10,19 @@ const LoginPage = () => {
 
       <div className="log_in">
         <ul>
+          <li>아이디</li>
           <li>
-            <input type="text" placeholder="ID" />
+            <input type="text" name="ID" placeholder="ID" />
           </li>
+          <li>비밀번호</li>
           <li>
-            <input type="password" placeholder="PassWord" />
+            <input type="password" name="PW" placeholder="PassWord" />
           </li>
-          <li>
+          <li class="loginbutton">
             <button type="button">로그인</button>
           </li>
-          <li>
-            <button type="button">회원가입</button>
+          <li class="registe">
+            <Link to={{ pathname: "/RegistePage" }}>회원가입</Link>
           </li>
         </ul>
       </div>
